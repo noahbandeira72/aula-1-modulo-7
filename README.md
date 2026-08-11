@@ -1,8 +1,8 @@
 ## minhas ideias
 
->um código que ajuda o usuário a descartar diferentes tipos de lixo corretamente
->ele teria diferentes tipos de lista com diferentes tipos de lixo que o usuário pode selecionar
->além disso, ele falaria as consequências de não descartar esse lixo.
+>Em código que ajuda o usuário a descartar diferentes tipos de lixo corretamente.
+>Ele teria diferentes tipos de lista com diferentes tipos de lixo que o usuário pode selecionar.
+>Além disso, ele falaria as consequências de não descartar esse lixo.
 
 >referências
 
