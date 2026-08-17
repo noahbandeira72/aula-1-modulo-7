@@ -8,4 +8,4 @@
 
 >https://ciclovivo.com.br/planeta/meio-ambiente/saiba-como-descartar-corretamente-diferentes-residuos/
 >https://www.gov.br/inpe/pt-br/acesso-a-informacao/perguntas-frequentes/principais-produtos-e-servicos-do-inpe/monitoramento-do-territorio-mudancas-climaticas/como-posso-ajudar-a-reduzir
->
+>https://ecoassist.com.br/como-descartar-entulhos/
