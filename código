@@ -1,0 +1,35 @@
+lixos_eletronicos = ("computador","notebook", "celular", "Televisão", "TV")
+lixos_entulho_de_obra = ("pedras","tijolos", "brita", "areia")
+lixos_cortantes = ("tezoura","lámina", "vidro", "estilete", "caco de vidro")
+lixos_moveis = ("sofá","cadeira", "mesa", "cristaleira")
+
+print("***olá! eu sou um assistente que te ajuda a descartar o seu lixo estranho ou que você não sabe o que fazer com ele!***")
+lixo_do_usuario = input("qual lixo você quer descartar? ")
+
+#função de eletrônicos
+def eletrônicos():
+    if lixo_do_usuario in lixos_eletronicos:
+        LE = print("Algumas companhias de tecnologia já oferecem o serviço de descarte de lixo eletrônico. Algumas marcas associadas à Associação Brasileira da Indústria Elétrica e Eletrônica (Abinee) criaram a Green Eletron (www.greeneletron.org.br), empresa responsável por coletar o lixo eletrônico. Há a alternativa também de recorrer à Secretaria do Meio ambiente do Estado ou município e pedir uma lista dos pontos de coleta de lixo eletrônico certificados pelos órgãos ambientais locais. ")
+        return
+eletrônicos()
+
+#função de entulhos de obras
+def entulhos():
+    if lixo_do_usuario in lixos_entulho_de_obra:
+        LEO = print("por lei é permitido que cada imóvel encaminhe diariamente até 50kg de entulho para serem recolhidos pela Prefeitura por meio da coleta domiciliar convencional. No entanto, tais resíduos devem estar acondicionados de maneira adequada (vidros, por exemplo).")
+entulhos()
+
+#objetos cortantes
+def cortantes():
+    if lixo_do_usuario in lixos_cortantes:
+        LC = print("Este material merece cuidado especial, principalmente porque pode machucar as pessoas. Se eles for pequeno, é possível colocá-los em uma garrafa PET. Caso os vidros sejam grandes, é recomendado embalá-los com papelão e fita crepe. Mas, é necessário escrever na embalagem que contém vidro para alertar aqueles que manusearem os pacotes.")
+cortantes()
+
+def moveis():
+    if lixo_do_usuario in lixos_moveis:
+        LM = print("Em São Paulo, além da Biothanks, que tem neste segmento um de seus maiores nichos de mercado, é possível fazer o descarte por meio do Cata-Bagulho. A iniciativa tem como objetivo evitar que móveis, eletrodomésticos quebrados, pedaços de madeira e metais sejam depositados em vias públicas, córregos e terrenos baldios, pois, além de prejudicar a conservação do espaço público, o descarte irregular é considerado crime ambiental, sujeito a multa de R$ 18 mil em caso de flagrante. Para utilizar o serviço, os interessados devem consultar os dias e horários de retiradas no site da Prefeitura (www.capital.sp.gov.br).")
+moveis()
+
+#óleo de cozinha
+if lixo_do_usuario == "Óleo de cozinha":
+    print("Muitas pessoas jogam o óleo de cozinha na pia ou no bueiro. Mas essa medida não é recomendada, pois, além de causar danos ambientais importantes, pode prejudicar o encanamento. O correto é armazenar o óleo velho e entregá-lo a ONGs e postos de coleta. Na Grande São Paulo, o Instituto Triângulo (www.triangulo.org.br), com sede em Santo André, realiza este trabalho. ")
